@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Smoke Suite</th></tr>
+<tr><td><a href="#t0">Mobile Test - iOS</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">10,053</td><td></td><td></td></tr>
+<tr><th colspan="7">Regression Suite</th></tr>
+<tr class="stripe"><td><a href="#t1">Regression Suite</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">490</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">1</th><th class="num attn">1</th><th class="num">0</th><th class="num">10,543</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Smoke Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Mobile Test - iOS &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.automation.qa.Runner.IOSMobileRunner</td><td><a href="#m0">feature</a></td><td rowspan="1">1573218845968</td><td rowspan="1">9581</td></tr></tbody>
+<tbody><tr><th colspan="4">Regression Suite</th></tr></tbody><tbody id="t1"><tr><th colspan="4">Regression Suite &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="2">com.automation.qa.Runner.RegressionRunner</td><td><a href="#m1">setUpClass</a></td><td rowspan="1">1573218845529</td><td rowspan="1">336</td></tr><tr class="failedeven"><td><a href="#m2">tearDownClass</a></td><td rowspan="1">1573218845997</td><td rowspan="1">2</td></tr><tr><th colspan="4">Regression Suite &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.automation.qa.Runner.RegressionRunner</td><td><a href="#m3">feature</a></td><td rowspan="1">1573218845992</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>Mobile Test - iOS</h2><h3 id="m0">com.automation.qa.Runner.IOSMobileRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Login</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Regression Suite</h2><h3 id="m1">com.automation.qa.Runner.RegressionRunner#setUpClass</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.DuplicateStepDefinitionException: Duplicate step definitions in com.automation.qa.steps.mobile.HomeScreenSteps.verifyUserOnHomePage() in file:/Users/vaishali.thakkar/ToDo/AutomationPractice/target/generated-classes/cobertura/ and com.automation.qa.steps.HomePageSteps.verifyUserOnHomePage() in file:/Users/vaishali.thakkar/ToDo/AutomationPractice/target/generated-classes/cobertura/
+	at cucumber.runtime.RuntimeGlue.addStepDefinition(RuntimeGlue.java:33)
+	at cucumber.runtime.java.JavaBackend.addStepDefinition(JavaBackend.java:151)
+	at cucumber.runtime.java.MethodScanner.scan(MethodScanner.java:68)
+	at cucumber.runtime.java.MethodScanner.scan(MethodScanner.java:41)
+	at cucumber.runtime.java.JavaBackend.loadGlue(JavaBackend.java:86)
+	at cucumber.runtime.Runtime.&lt;init&gt;(Runtime.java:92)
+	at cucumber.runtime.Runtime.&lt;init&gt;(Runtime.java:70)
+	at cucumber.runtime.Runtime.&lt;init&gt;(Runtime.java:66)
+	at cucumber.api.testng.TestNGCucumberRunner.&lt;init&gt;(TestNGCucumberRunner.java:42)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.setUpClass(AbstractTestNGCucumberTests.java:16)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.automation.qa.Runner.RegressionRunner#tearDownClass</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at cucumber.api.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:34)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.automation.qa.Runner.RegressionRunner#feature</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at cucumber.api.testng.AbstractTestNGCucumberTests.features(AbstractTestNGCucumberTests.java:29)
+	... 18 more
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

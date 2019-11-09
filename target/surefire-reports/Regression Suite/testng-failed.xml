@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="com.automation.qa.Listnener.TestAllureListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Regression Suite(failed)">
+    <classes>
+      <class name="com.automation.qa.Runner.RegressionRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.automation.qa.Runner.RegressionRunner -->
+    </classes>
+  </test> <!-- Regression Suite(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

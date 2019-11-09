@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 11.197 s <<< FAILURE! - in TestSuite
+setUpClass(com.automation.qa.Runner.RegressionRunner)  Time elapsed: 0.022 s  <<< FAILURE!
+cucumber.runtime.DuplicateStepDefinitionException: Duplicate step definitions in com.automation.qa.steps.mobile.HomeScreenSteps.verifyUserOnHomePage() in file:/Users/vaishali.thakkar/ToDo/AutomationPractice/target/generated-classes/cobertura/ and com.automation.qa.steps.HomePageSteps.verifyUserOnHomePage() in file:/Users/vaishali.thakkar/ToDo/AutomationPractice/target/generated-classes/cobertura/
+
+tearDownClass(com.automation.qa.Runner.RegressionRunner)  Time elapsed: 0.035 s  <<< FAILURE!
+java.lang.NullPointerException
+

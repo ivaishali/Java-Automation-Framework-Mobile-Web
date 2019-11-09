@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke Suite">
+
+    <listeners>
+        <listener class-name="com.automation.qa.Listnener.TestAllureListener"></listener>
+    </listeners>
+
+    <test name="Mobile Test - Android" enabled="false">
+        <classes>
+            <class name="com.automation.qa.Runner.AndroidMobileRunner"></class>
+        </classes>
+    </test>
+
+    <test name="Mobile Test - iOS" enabled="true">
+        <classes>
+            <class name="com.automation.qa.Runner.IOSMobileRunner"></class>
+        </classes>
+    </test>
+
+    <test name="Smoke Suite" enabled="false">
+        <classes>
+            <class name="com.automation.qa.Runner.SmokeRunner"/>
+        </classes>
+    </test>
+
+</suite>

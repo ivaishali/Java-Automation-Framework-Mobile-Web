@@ -1,0 +1,11 @@
+[ {
+  "uid" : "91255eb235edadc7",
+  "name" : "Runs Cucumber Feature",
+  "time" : {
+    "start" : 1573127908227,
+    "stop" : 1573127948366,
+    "duration" : 40139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

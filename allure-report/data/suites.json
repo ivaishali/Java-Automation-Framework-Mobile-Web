@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "TestAll",
+    "children" : [ {
+      "name" : "order",
+      "children" : [ {
+        "name" : "com.automation.qa.Runner.SmokeRunner",
+        "children" : [ {
+          "name" : "Runs Cucumber Feature",
+          "uid" : "91255eb235edadc7",
+          "parentUid" : "cdc7af8ce9938de7e24ea65bf3afb4ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1573127908227,
+            "stop" : 1573127948366,
+            "duration" : 40139
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Login" ]
+        } ],
+        "uid" : "cdc7af8ce9938de7e24ea65bf3afb4ae"
+      } ],
+      "uid" : "4756339159257a05aa2fb967cad7d684"
+    } ],
+    "uid" : "3542dce96eac2adf374a93ed72213080"
+  } ]
+}

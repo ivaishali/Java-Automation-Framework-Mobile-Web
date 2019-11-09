@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Suite">
+    <listeners>
+        <listener class-name="com.automation.qa.Listnener.TestAllureListener"></listener>
+    </listeners>
+
+    <test name="Regression Suite">
+        <classes>
+            <class name="com.automation.qa.Runner.RegressionRunner" />
+        </classes>
+    </test>
+</suite>

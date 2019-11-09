@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "ICPL13370-Vaishali.local",
+    "children" : [ {
+      "name" : "79763@ICPL13370-Vaishali.local.main(1)",
+      "children" : [ {
+        "name" : "Runs Cucumber Feature",
+        "uid" : "6a005073129baecc",
+        "parentUid" : "9a706a4dfc54278106573bd87c4af822",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573127561962,
+          "stop" : 1573127603625,
+          "duration" : 41663
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Login" ]
+      } ],
+      "uid" : "9a706a4dfc54278106573bd87c4af822"
+    }, {
+      "name" : "79875@ICPL13370-Vaishali.local.main(1)",
+      "children" : [ {
+        "name" : "Runs Cucumber Feature",
+        "uid" : "91255eb235edadc7",
+        "parentUid" : "e36c0b35d14d28ae66eede972dd47639",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573127908227,
+          "stop" : 1573127948366,
+          "duration" : 40139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Login" ]
+      } ],
+      "uid" : "e36c0b35d14d28ae66eede972dd47639"
+    } ],
+    "uid" : "9cc6c5fddfe06e764e34563bdb235f03"
+  } ]
+}
