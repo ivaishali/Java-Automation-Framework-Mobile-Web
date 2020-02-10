@@ -1,4 +1,4 @@
-package com.automation.qa.pages.mobile;
+package com.automation.qa.pages;
 
 
 

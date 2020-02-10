@@ -1,6 +1,6 @@
 package com.automation.qa.steps;
 
-import com.automation.qa.pages.HomePage;
+import com.automation.qa.pages.mobile.HomePage;
 import cucumber.api.java.en.Given;
 import org.testng.Assert;
 
