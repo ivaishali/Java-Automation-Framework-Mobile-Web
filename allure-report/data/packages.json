@@ -2,21 +2,21 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "com.automation.qa.Runner.SmokeRunner",
+    "name" : "com.automation.qa.Runner.WebPlatformRunner",
     "children" : [ {
       "name" : "feature",
-      "uid" : "91255eb235edadc7",
-      "parentUid" : "cd41a74b609378d0f0b681c7f184de31",
+      "uid" : "a076d0445f2d5939",
+      "parentUid" : "30a04f00c156ca17b1e854187661029f",
       "status" : "passed",
       "time" : {
-        "start" : 1573127908227,
-        "stop" : 1573127948366,
-        "duration" : 40139
+        "start" : 1581359273302,
+        "stop" : 1581359297412,
+        "duration" : 24110
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "Login" ]
     } ],
-    "uid" : "com.automation.qa.Runner.SmokeRunner"
+    "uid" : "com.automation.qa.Runner.WebPlatformRunner"
   } ]
 }

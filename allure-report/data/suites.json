@@ -2,29 +2,29 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "TestAll",
+    "name" : "Smoke Suite",
     "children" : [ {
-      "name" : "order",
+      "name" : "Web Test",
       "children" : [ {
-        "name" : "com.automation.qa.Runner.SmokeRunner",
+        "name" : "com.automation.qa.Runner.WebPlatformRunner",
         "children" : [ {
           "name" : "Runs Cucumber Feature",
-          "uid" : "91255eb235edadc7",
-          "parentUid" : "cdc7af8ce9938de7e24ea65bf3afb4ae",
+          "uid" : "a076d0445f2d5939",
+          "parentUid" : "40ced26632410a404622e97e40e56b96",
           "status" : "passed",
           "time" : {
-            "start" : 1573127908227,
-            "stop" : 1573127948366,
-            "duration" : 40139
+            "start" : 1581359273302,
+            "stop" : 1581359297412,
+            "duration" : 24110
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "Login" ]
         } ],
-        "uid" : "cdc7af8ce9938de7e24ea65bf3afb4ae"
+        "uid" : "40ced26632410a404622e97e40e56b96"
       } ],
-      "uid" : "4756339159257a05aa2fb967cad7d684"
+      "uid" : "3e4fba7327ab27c0de63500e9b0f7a3c"
     } ],
-    "uid" : "3542dce96eac2adf374a93ed72213080"
+    "uid" : "7808475ad5c579648b570e1478707cb4"
   } ]
 }

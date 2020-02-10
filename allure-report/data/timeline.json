@@ -2,42 +2,25 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "ICPL13370-Vaishali.local",
+    "name" : "LAPTOP-1KJH1E74",
     "children" : [ {
-      "name" : "79763@ICPL13370-Vaishali.local.main(1)",
+      "name" : "2856@LAPTOP-1KJH1E74.TestNG-suites-1(14)",
       "children" : [ {
         "name" : "Runs Cucumber Feature",
-        "uid" : "6a005073129baecc",
-        "parentUid" : "9a706a4dfc54278106573bd87c4af822",
-        "status" : "broken",
-        "time" : {
-          "start" : 1573127561962,
-          "stop" : 1573127603625,
-          "duration" : 41663
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Login" ]
-      } ],
-      "uid" : "9a706a4dfc54278106573bd87c4af822"
-    }, {
-      "name" : "79875@ICPL13370-Vaishali.local.main(1)",
-      "children" : [ {
-        "name" : "Runs Cucumber Feature",
-        "uid" : "91255eb235edadc7",
-        "parentUid" : "e36c0b35d14d28ae66eede972dd47639",
+        "uid" : "a076d0445f2d5939",
+        "parentUid" : "7064006dcb37b61a6ed6b010ad851e62",
         "status" : "passed",
         "time" : {
-          "start" : 1573127908227,
-          "stop" : 1573127948366,
-          "duration" : 40139
+          "start" : 1581359273302,
+          "stop" : 1581359297412,
+          "duration" : 24110
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Login" ]
       } ],
-      "uid" : "e36c0b35d14d28ae66eede972dd47639"
+      "uid" : "7064006dcb37b61a6ed6b010ad851e62"
     } ],
-    "uid" : "9cc6c5fddfe06e764e34563bdb235f03"
+    "uid" : "4f297ed55632d19438c55f390fd5534a"
   } ]
 }

@@ -1,0 +1,97 @@
+{
+  "uid" : "a076d0445f2d5939",
+  "name" : "Runs Cucumber Feature",
+  "fullName" : "cucumber.api.testng.AbstractTestNGCucumberTests.feature",
+  "historyId" : "4f189ec93d4ffd38ca8421265a5c4919",
+  "time" : {
+    "start" : 1581359273302,
+    "stop" : 1581359297412,
+    "duration" : 24110
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1581359272317,
+      "stop" : 1581359272935,
+      "duration" : 618
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1581359297582,
+      "stop" : 1581359297600,
+      "duration" : 18
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.automation.qa.Runner.WebPlatformRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "com.automation.qa.Runner.WebPlatformRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "feature"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Smoke Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.automation.qa.Runner.WebPlatformRunner"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-1KJH1E74"
+  }, {
+    "name" : "thread",
+    "value" : "2856@LAPTOP-1KJH1E74.TestNG-suites-1(14)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Login"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a076d0445f2d5939.json",
+  "parameterValues" : [ "Login" ]
+}

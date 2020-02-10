@@ -3,13 +3,13 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "Runs Cucumber Feature",
-    "uid" : "91255eb235edadc7",
+    "uid" : "a076d0445f2d5939",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1573127908227,
-      "stop" : 1573127948366,
-      "duration" : 40139
+      "start" : 1581359273302,
+      "stop" : 1581359297412,
+      "duration" : 24110
     },
     "flaky" : false,
     "newFailed" : false,

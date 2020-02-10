@@ -7,7 +7,7 @@
 
     <test name="Regression Suite">
         <classes>
-            <class name="com.automation.qa.Runner.RegressionRunner" />
+            <class name="com.automation.qa.Runner.WebPlatformRunner" />
         </classes>
     </test>
 </suite>

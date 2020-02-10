@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Nov 07 17:28:28 IST 2019","Thu Nov 07 17:29:08 IST 2019","40139","TestAll","order","com.automation.qa.Runner.SmokeRunner","com.automation.qa.Runner.SmokeRunner","feature","Runs Cucumber Feature",""
+"passed","Mon Feb 10 23:57:53 IST 2020","Mon Feb 10 23:58:17 IST 2020","24110","Smoke Suite","Web Test","com.automation.qa.Runner.WebPlatformRunner","com.automation.qa.Runner.WebPlatformRunner","feature","Runs Cucumber Feature",""

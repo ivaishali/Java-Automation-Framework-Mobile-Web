@@ -1,8 +1,8 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "3542dce96eac2adf374a93ed72213080",
-    "name" : "TestAll",
+    "uid" : "7808475ad5c579648b570e1478707cb4",
+    "name" : "Smoke Suite",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

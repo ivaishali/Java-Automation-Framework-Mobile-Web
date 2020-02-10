@@ -14,16 +14,14 @@ public class PropertyUtils {
     public static void loadProperties() {
         try {
             // load config.properties file
-            prop.load(new FileInputStream(new File(System.getProperty("user.dir") + "/src/main/resources/config.properties")));
+            prop.load(new FileInputStream(new File(System.getProperty("user.dir") + "/resources/config.properties")));
 
             // load locators properties
-            File file = new File(System.getProperty("user.dir") + "/src/main/resources/locators");
+            File file = new File(System.getProperty("user.dir") + "/resources/locators");
             File[] files = file.listFiles();
             for (File f : files) {
                 prop.load(new FileInputStream(f));
             }
-
-            System.out.println(prop);
         } catch (IOException e) {
             e.printStackTrace();
         }

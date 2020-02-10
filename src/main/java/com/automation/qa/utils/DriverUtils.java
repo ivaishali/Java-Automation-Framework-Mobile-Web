@@ -3,15 +3,14 @@ package com.automation.qa.utils;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.MalformedURLException;
-import java.net.URI;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
@@ -38,7 +37,7 @@ public class DriverUtils {
 
     public static void launchWebDriver() {
         if (getPropertyByKey("driver.name").equalsIgnoreCase("chrome")) {
-            System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver");
+            WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
         }
         driver.manage().window().maximize();
@@ -69,7 +68,7 @@ public class DriverUtils {
 
     public static void tearDown() {
         if (getPropertyByKey("automation.platform").equalsIgnoreCase("web")) {
-            driver.quit();
+            getDriver().quit();
         } else {
             tearDownAppiumServer();
         }

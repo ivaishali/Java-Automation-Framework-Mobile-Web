@@ -12,15 +12,15 @@
         </classes>
     </test>
 
-    <test name="Mobile Test - iOS" enabled="true">
+    <test name="Mobile Test - iOS" enabled="false">
         <classes>
             <class name="com.automation.qa.Runner.IOSMobileRunner"></class>
         </classes>
     </test>
 
-    <test name="Smoke Suite" enabled="false">
+    <test name="Web Test" enabled="true">
         <classes>
-            <class name="com.automation.qa.Runner.SmokeRunner"/>
+            <class name="com.automation.qa.Runner.WebPlatformRunner"/>
         </classes>
     </test>
 
